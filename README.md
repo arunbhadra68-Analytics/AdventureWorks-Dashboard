@@ -1,7 +1,7 @@
 🚴 AdventureWorks Sales & Returns Insights Dashboard
 ====================================================
 
-An interactive Power BI report built to analyze AdventureWorks' global bike, components, clothing, and accessories business — covering sales performance, profitability, customer behavior, and product returns across six countries.
+An interactive Power BI report built to analyze AdventureWorks global bike, components, clothing, and accessories business — covering sales performance, profitability, customer behavior, and product returns across six countries.
 
 Short Description / Purpose
 ----------------------------
@@ -16,20 +16,20 @@ The dashboard was built using the following tools and technologies:
 - **📊 Power BI Desktop** — Main data visualization and report-authoring platform.
 - **📂 Power Query** — Used to clean and shape the Sales, Returns, Product, Customer, Territory, and Calendar tables before loading into the model.
 - **🧠 DAX (Data Analysis Expressions)** — 40+ calculated measures covering revenue, profit, returns, targets, rolling trends, and customer-level KPIs.
-- **📝 Data Modeling** — A star-schema model with a central `Sales Data` fact table and a `Returns Data` fact table, linked to `Product`, `Customer`, `Territory`, and `Calendar` dimension tables, plus a dedicated `Measure Table` and `Data Dictionary` for documentation.
-- **📁 File Format** — `.pbix` for development, `.png` for dashboard preview images.
+- **📝 Data Modeling** — A star-schema model with a central Sales Data fact table and a Returns Data fact table, linked to Product, Customer, Territory, and Calendar dimension tables, plus a dedicated Measure Table and Data Dictionary for documentation.
+- **📁 File Format** — .pbix for development, .png for dashboard preview images.
 
 Data Source
 -----------
 
-*Source: AdventureWorks sample sales dataset (Microsoft's classic bicycle & accessories retailer dataset).*
+*Source: AdventureWorks sample sales dataset (Microsofts classic bicycle & accessories retailer dataset).*
 
 The model covers:
 - **56,046** sales transactions and **1,809** product returns
 - **18,148** customer records and **293** products across **4** categories (Bikes, Components, Clothing, Accessories) and **37** subcategories
 - Orders spanning **6 countries** (United States, Canada, France, Germany, Australia, United Kingdom) from **January 2020 to June 2022**
 
-A `Data Dictionary` table is included directly in the model, listing every column across all lookup and fact tables for easy reference by anyone extending the report.
+A Data Dictionary table is included directly in the model, listing every column across all lookup and fact tables for easy reference by anyone extending the report.
 
 Features / Highlights
 ----------------------
@@ -54,27 +54,27 @@ To deliver a single interactive report that:
 ### Walkthrough of Key Visuals
 
 - **Key KPIs**
-  - Total Revenue: **₹2.49 Cr+**
+  - Total Revenue: **$24.9 M**
   - Total Orders: **25,164**
-  - Total Profit: **₹1.05 Cr+**
+  - Total Profit: **$10.5M**
   - Total Customers: **17,416**
   - Overall Return Rate: **2.17%**
   - Units Sold vs. Returned: **84,174 sold / 1,828 returned**
 
 - **Revenue & Profit Trends**
-  Measures like `YTD Revenue`, `Previous Month Revenue`, `10 day rolling revenue`, and `90 days rolling profit` power trend visuals that show short- and long-term momentum alongside `Revenue Target` and `Profit target` (calculated as prior-month performance +10%).
+  Measures like YTD Revenue, Previous Month Revenue, 10 day rolling revenue, and 90 days rolling profit power trend visuals that show short- and long-term momentum alongside Revenue Target and Profit target (calculated as prior-month performance +10%).
 
 - **Returns Analysis**
-  `Return Rate`, `Bike Return Rate`, `total Returns`, and `All Returns` measures break down return performance overall and specifically for the Bikes category, helping quality and category teams flag underperforming products.
+  Return Rate, Bike Return Rate, total Returns, and All Returns measures break down return performance overall and specifically for the Bikes category, helping quality and category teams flag underperforming products.
 
 - **Order Segmentation**
-  Measures such as `Bulk Order` (orders with quantity > 1), `High Ticket Orders` (orders above the average product price), `Weekend Order`, and `Red sales` (color-based segmentation) let users slice performance by order type and product attributes.
+  Measures such as Bulk Order (orders with quantity > 1), High Ticket Orders (orders above the average product price), Weekend Order, and Red sales (color-based segmentation) let users slice performance by order type and product attributes.
 
 - **Customer Details View**
-  A dedicated set of measures (`Total Order (customer details)`, `Total Revenue(customer details)`, `Full Name(Customer Details)`) supports a customer drill-through page for account-level analysis and average revenue per customer.
+  A dedicated set of measures (Total Order (customer details), Total Revenue(customer details), Full Name(Customer Details)) supports a customer drill-through page for account-level analysis and average revenue per customer.
 
 - **Price Adjustment Scenario Modeling**
-  A `Price Adjustment` table combined with `Adjusted Price`, `Adjusted Revenue`, and `Adjuted Profit` measures allows what-if analysis of how pricing changes would affect revenue and profit.
+  A Price Adjustment table combined with Adjusted Price, Adjusted Revenue, and Adjuted Profit measures allows what-if analysis of how pricing changes would affect revenue and profit.
 
 ### Business Impact & Insights
 - **Performance Monitoring**: Leadership can track revenue and profit against rolling targets without waiting on manual reports.
