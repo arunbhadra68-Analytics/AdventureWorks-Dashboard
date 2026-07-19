@@ -85,12 +85,16 @@ To deliver a single interactive report that:
 
 Screenshots / Demos
 --------------------
+**Exec dashboard**
 ![**Exec dashboard**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/EXEC%20dashboard.png)
 
+**Map**
 ![**Map**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/MAP.png)
 
+**Product Details**
 ![**Product Details**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Product%20Details.png)
 
+**Customer Details**
 ![**Customer Details**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Customer%20Details.png)
 
 
