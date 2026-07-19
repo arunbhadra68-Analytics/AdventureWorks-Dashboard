@@ -85,10 +85,9 @@ To deliver a single interactive report that:
 
 Screenshots / Demos
 --------------------
-**Exec dashboard** :
-**Map** :
-**Product Details** :
-**Customer Details** :
+**Exec dashboard** :https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/EXEC%20dashboard.png
+**Map** : https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/MAP.png
+**Product Details** : https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Product%20Details.png
+**Customer Details** : https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Customer%20Details.png
 ```
 
-> 💡 Tip: Export each report page as an image (File → Export → Image) and drop them into a `media/` folder in this repo, then reference them above.
