@@ -87,11 +87,10 @@ Screenshots / Demos
 --------------------
 ![**Exec dashboard**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/EXEC%20dashboard.png)
 
-**Map** : https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/MAP.png
+![**Map**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/MAP.png)
 
-**Product Details** : https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Product%20Details.png
+![**Product Details**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Product%20Details.png)
 
-**Customer Details** : https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Customer%20Details.png
+![**Customer Details**](https://github.com/arunbhadra68-Analytics/AdventureWorks-Dashboard/blob/main/Customer%20Details.png)
 
-```
 
